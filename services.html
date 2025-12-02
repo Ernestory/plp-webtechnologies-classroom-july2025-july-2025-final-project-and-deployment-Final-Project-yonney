@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Services — yonney</title>
+    <meta name="description" content="Services offered by yonney — web design, frontend development, and deployment." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#maincontent">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="MySite logo" class="logo"></a>
+        <button class="nav-toggle" id="navToggle3" aria-label="Open navigation">☰</button>
+        <nav class="site-nav" id="siteNav3">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="maincontent" class="container">
+      <section class="services-hero">
+        <h2>Services</h2>
+        <p class="lead">We build product experiences and deliver polished frontends that ship fast.</p>
+      </section>
+
+      <section class="services-list">
+        <div class="service-card card">
+          <h3>Product Design</h3>
+          <p>Research, UI/UX, wireframes and prototypes focused on clear user journeys.</p>
+          <button class="more" aria-expanded="false">Learn more</button>
+          <div class="more-details" hidden>
+            <ul>
+              <li>Workshops & discovery</li>
+              <li>Clickable prototypes</li>
+              <li>Design systems</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-card card">
+          <h3>Frontend Development</h3>
+          <p>Responsive, accessible implementations with modern CSS and vanilla JS or frameworks.</p>
+          <button class="more" aria-expanded="false">Learn more</button>
+          <div class="more-details" hidden>
+            <ul>
+              <li>Semantic HTML & ARIA</li>
+              <li>Performance optimization</li>
+              <li>Interactive components</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-card card">
+          <h3>Deployment & DevOps</h3>
+          <p>CI/CD setups, Git-based deploys, and automated previews for teams.</p>
+          <button class="more" aria-expanded="false">Learn more</button>
+          <div class="more-details" hidden>
+            <ul>
+              <li>GitHub Pages / Netlify / Vercel</li>
+              <li>Automatic builds & previews</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© 2025 MySite</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

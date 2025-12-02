@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — yonney</title>
+    <meta name="description" content="About yonney — a product & agency demo site." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#maincontent">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="MySite logo" class="logo"></a>
+        <button class="nav-toggle" id="navToggle2" aria-label="Open navigation">☰</button>
+        <nav class="site-nav" id="siteNav2">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="maincontent" class="container">
+      <section class="about-hero">
+        <h2>About yonney</h2>
+        <p class="lead">We are a product & agency team building beautiful experiences — design, frontend engineering, and deployment workflows.</p>
+      </section>
+
+      <section class="values cards">
+        <article class="card">
+          <h3>Design-led</h3>
+          <p>User-centered design with clear visual hierarchy and rapid prototypes.</p>
+        </article>
+        <article class="card">
+          <h3>Performance</h3>
+          <p>Fast, accessible, and SEO-friendly static sites ready for production.</p>
+        </article>
+        <article class="card">
+          <h3>Deploy</h3>
+          <p>Continuous deployment pipelines for reliable releases.</p>
+        </article>
+      </section>
+
+      <section class="team" aria-labelledby="team-heading">
+        <h3 id="team-heading">Our team</h3>
+        <p>Small, cross-functional team. Click a member to reveal skills.</p>
+        <div class="team-grid">
+          <button class="profile card" data-name="Ari" aria-expanded="false">
+            <div class="profile-inner">
+              <img src="images/placeholder-1.svg" alt="Ari photo" class="avatar">
+              <div>
+                <strong>Ari</strong>
+                <div class="muted">Product Designer</div>
+              </div>
+            </div>
+            <div class="profile-details" hidden>
+              <div class="skill"><label>Design</label><div class="bar" data-value="90"><span></span></div></div>
+              <div class="skill"><label>Prototyping</label><div class="bar" data-value="80"><span></span></div></div>
+            </div>
+          </button>
+
+          <button class="profile card" data-name="Sam" aria-expanded="false">
+            <div class="profile-inner">
+              <img src="images/placeholder-1.svg" alt="Sam photo" class="avatar">
+              <div>
+                <strong>Sam</strong>
+                <div class="muted">Frontend Engineer</div>
+              </div>
+            </div>
+            <div class="profile-details" hidden>
+              <div class="skill"><label>HTML/CSS</label><div class="bar" data-value="95"><span></span></div></div>
+              <div class="skill"><label>JavaScript</label><div class="bar" data-value="90"><span></span></div></div>
+            </div>
+          </button>
+
+          <button class="profile card" data-name="Rin" aria-expanded="false">
+            <div class="profile-inner">
+              <img src="images/placeholder-1.svg" alt="Rin photo" class="avatar">
+              <div>
+                <strong>Rin</strong>
+                <div class="muted">DevOps</div>
+              </div>
+            </div>
+            <div class="profile-details" hidden>
+              <div class="skill"><label>CI/CD</label><div class="bar" data-value="85"><span></span></div></div>
+              <div class="skill"><label>Deployment</label><div class="bar" data-value="88"><span></span></div></div>
+            </div>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© 2025 MySite</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

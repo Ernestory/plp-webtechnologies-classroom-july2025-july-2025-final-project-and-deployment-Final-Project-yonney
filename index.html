@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>yonney — Product & Agency</title>
+    <meta name="description" content="yonney — Product & Agency. Clean, responsive multipage demo built with HTML, CSS and JavaScript." />
+    <meta property="og:title" content="yonney — Product & Agency" />
+    <meta property="og:description" content="Responsive product/agency demo site built for a final project." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#maincontent">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo-link"><img src="images/logo.svg" alt="yonney logo" class="logo"></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open navigation">☰</button>
+        <nav class="site-nav" id="siteNav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="maincontent">
+      <section class="hero">
+        <div class="container">
+          <h2>Build, Organize & Deploy</h2>
+          <p>A product-focused agency demo showcasing responsive design, accessible patterns, and a deploy-ready structure.</p>
+          <img src="images/hero.svg" alt="Hero illustration" class="hero-image" />
+          <p><a class="btn" href="contact.html">Get in touch</a></p>
+        </div>
+      </section>
+
+      <section class="cards container">
+        <article class="card">
+          <h3>Responsive Design</h3>
+          <p>Mobile-first layout with a shared header/footer across pages.</p>
+        </article>
+        <article class="card">
+          <h3>Interactive Elements</h3>
+          <p>Navigation toggle, form validation, and simple scroll animation.</p>
+        </article>
+        <article class="card">
+          <h3>Ready to Deploy</h3>
+          <p>Static files are deployable to GitHub Pages, Netlify or Vercel.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© 2025 MySite — Built for final project</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" role="img" aria-label="Hero illustration">
+  <rect width="800" height="360" fill="#f8fafc"/>
+  <g transform="translate(60,40)">
+    <rect width="320" height="220" rx="12" fill="#0b2545" opacity="0.08"/>
+    <rect x="340" y="0" width="320" height="220" rx="12" fill="#ff6a13" opacity="0.06"/>
+    <circle cx="520" cy="140" r="48" fill="#ff6a13" opacity="0.12"/>
+    <text x="8" y="130" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#0b2545">Product design meets modern frontend</text>
+  </g>
+</svg>
